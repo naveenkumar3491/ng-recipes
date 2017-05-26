@@ -1,10 +1,11 @@
-import { ShoppingListDataService } from '../shared/data-sl.service';
+
 import { Location } from '@angular/common';
 import { Component } from '@angular/core';
 import { Response } from '@angular/http';
-import { DataStorageService } from '../shared/data-storage.service';
 import { Router, Event, NavigationStart } from '@angular/router';
-import { AuthService } from '../shared/auth-service';
+import { DataStorageService } from "app/shared/data-storage.service";
+import { ShoppingListDataService } from "app/shared/data-sl.service";
+import { AuthService } from "app/shared/auth-service";
 
 @Component({
 	selector: 'app-header',
